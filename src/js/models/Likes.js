@@ -1,4 +1,5 @@
 export default class Likes {
+    
     constructor() {
         this.likes = [];
     }
@@ -15,10 +16,10 @@ export default class Likes {
     }
     
     isLiked(id){
-        return this.like.findIndex(el => el.id === id) !== -1;
+        return this.likes.findIndex(el => el.id === id) !== -1;
     }
     
     getNumLikes(){
-        return this.likes.length;
+        return this.likes
     }
 }
