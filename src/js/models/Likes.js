@@ -20,6 +20,6 @@ export default class Likes {
     }
     
     getNumLikes(){
-        return this.likes
+        return this.likes.length;
     }
 }
